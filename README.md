@@ -1,2 +1,2 @@
-# DiscordClock
-discord voice chat name as UTC clock
+# Discord Clock
+Discord voice chat name as EVE/UTC clock
