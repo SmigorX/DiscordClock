@@ -2,7 +2,7 @@ import discord
 import time
 import asyncio
 
-from Secrets import discord_token
+from Secrets import discord_token_test as discord_token
 from discord.ext import commands
 
 
