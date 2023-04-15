@@ -12,6 +12,7 @@ intents.message_content = True
 intents.members = True
 bot = discord.ext.commands.Bot(intents=intents, command_prefix="!")
 
+target_id = None
 
 db_connection = sqlite3.connect("ClockBot_servers")
 db_cursor = db_connection.cursor()
@@ -99,7 +100,7 @@ async def on_ready():
             except Exception as e:
                 print(e)
                 pass
-        await asyncio.sleep(600)
+            await asyncio.sleep(60)
 
 
 TOKEN = discord_token
