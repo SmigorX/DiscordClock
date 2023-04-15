@@ -100,7 +100,7 @@ async def on_ready():
             except Exception as e:
                 print(e)
                 pass
-            await asyncio.sleep(60)
+            await asyncio.sleep(600)
 
 
 TOKEN = discord_token
